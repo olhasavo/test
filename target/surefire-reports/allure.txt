@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: allure
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.266 s <<< FAILURE! - in allure
+testForSum(allure)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: Сумма �?лагаемых не �?оответ�?твует ожидаемому значению did not expect to find [true] but found [false]
+	at allure.checkSumStep(allure.java:22)
+	at allure.testForSum(allure.java:18)
+
